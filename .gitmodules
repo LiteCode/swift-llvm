@@ -1,4 +1,4 @@
-[submodule "utils/clang"]
+[submodule "tools/clang"]
 	path = tools/clang
 	url = https://github.com/LiteCode/swift-clang.git
 [submodule "projects/libcxx"]
