@@ -7,7 +7,7 @@ set -e
 LLVM_SRCDIR=$(pwd)
 OSX_BUILDDIR=$(pwd)/build_osx
 
-#git submodule update --init --recursive
+git submodule update --init --recursive
 
 # compile for OSX (about 1h, 1GB of disk space)
 if [ $CLEAN ]; then
